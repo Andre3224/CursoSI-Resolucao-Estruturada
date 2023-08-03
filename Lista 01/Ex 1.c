@@ -12,5 +12,5 @@ void main(){
 	
 	area = (3.14*(raio*raio));
 	
-	printf("A area total eh: %.2f", area);
+	printf("A area total eh: %0.2f", area);
 }
