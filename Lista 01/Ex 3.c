@@ -54,7 +54,7 @@ void main(){
 			break;
 			
 		default:
-			printf("Code invalido");
+			printf("Importado");
 			break;
 	}
 }
