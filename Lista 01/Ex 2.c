@@ -13,10 +13,11 @@ void main(){
 	printf("\nDigite a medida do altura: ");
 	scanf("%f",&altura);
 	
-	areaC = comprimento*largura*altura;
-	
+	areaC = 2*comprimento*largura + 2*comprimento*largura + 2*comprimento*altura;
+	// AT = 2ab + 2ac + 2bc
+	printf("\n A area total da sala eh: %.2f", areaC);
 	quantidadeAz = areaC/1.5;
 	
-	printf("\n A quantidade de azulejos necessario eh: %0.2f", quantidadeAz);
+	printf("\n A quantidade de azulejos necessario eh: %.2f", quantidadeAz);
 
 }
