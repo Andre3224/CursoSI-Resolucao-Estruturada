@@ -6,7 +6,7 @@ void main(){
 	
 	num = 50;
 	while (num <= 80){
-		
+		printf("\n%d", num);
 		par = num%2;
 		
 		if (par == 0){
@@ -16,5 +16,5 @@ void main(){
 		num++;
 	}
 	
-	printf("A soma dos numeros pares eh: %.2f", soma);
+	printf("\nA soma dos numeros pares eh: %d", soma);
 }
