@@ -4,7 +4,7 @@
 void main(){
 	int totalneg=0, somapos=0, i, num;
 	
-	for(i=0;i<5;i++){
+	for(i=0;i<20;i++){
 		printf("Digite um numero: ");
 		scanf("%i",&num);
 		
