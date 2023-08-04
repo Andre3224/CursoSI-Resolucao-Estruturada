@@ -6,7 +6,7 @@ void main(){
 	
 	for(i=0;i<20;i++){
 		printf("Digite um numero: ");
-		scanf("%i",&num);
+		scanf("%d",&num);
 		
 		if (num < 0){
 			totalneg++;
@@ -17,6 +17,6 @@ void main(){
 
 	};
 	
-	printf("\nO total de num negativos sao: %i",totalneg);
-	printf("\nA soma dos num pos eh: %i", somapos);
+	printf("\nO total de num negativos sao: %d",totalneg);
+	printf("\nA soma dos num pos eh: %d", somapos);
 }

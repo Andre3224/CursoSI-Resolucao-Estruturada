@@ -5,7 +5,7 @@ void main(){
 	int code;
 	
 	printf("Digite o codigo de regiao: ");
-	scanf("%i",&code);
+	scanf("%d",&code);
 	
 	switch (code){
 		
