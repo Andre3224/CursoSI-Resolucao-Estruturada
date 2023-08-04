@@ -10,7 +10,12 @@ void main(){
 		scanf("%d",&num);
 		
 		if (num > maior){
+			
 			maior = num;
+			maior2 =maior;
+		}else{
+			if(num < maior || num > maior2)
+				maior2 = num;
 		}
 		
 	}
