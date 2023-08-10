@@ -24,7 +24,9 @@ int Subtracao(){
 	n2 = 5;
 	sub = n1 - n2;
 	printf("\nSubtracao: %d", sub);
+	
 }
+
 void main(){
 	soma_dois_numeros();
 	Subtracao();
