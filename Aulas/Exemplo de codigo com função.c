@@ -23,8 +23,7 @@ int Subtracao(){   //Funçao
 	n2 = 5;
 	sub = n1 - n2;
 	return sub; //retorna um valor para o programa principal
-	
-	
+
 }
 
 void main(){
