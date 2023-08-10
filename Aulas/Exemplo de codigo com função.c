@@ -26,5 +26,5 @@ int sub(){
 }
 void main(){
 	soma();
-	
+	sub();
 }
