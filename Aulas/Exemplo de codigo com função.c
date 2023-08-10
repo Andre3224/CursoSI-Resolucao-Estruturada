@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <conio.h>
-
 /*
 tipo_da_funcao nome_da_funcao(tipo var1, tipo var2,... tipo varN){
 	
