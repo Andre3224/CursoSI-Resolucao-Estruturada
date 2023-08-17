@@ -13,7 +13,7 @@ int CalcIdd(){
 	
 	return idade;
 }
-int CalcMed(){
+float CalcMed(){
 	int n1, n2, n3, n4, med;
 	system("cls");
 	printf("Digite a nota 1: ");
@@ -29,12 +29,12 @@ int CalcMed(){
 	
 	return med;
 }
-int MultD(){
-	int n1, n2, produto;
+float MultD(){
+	float n1, n2, produto;
 	printf("Digite o num1: ");
-	scanf("%d",&n1);
+	scanf("%f",&n1);
 	printf("Digite o num2: ");
-	scanf("%d",&n2);
+	scanf("%f",&n2);
 	
 	produto = n1 * n2;
 	
@@ -51,7 +51,8 @@ int DivD(){
 	return res;
 }
 void menu(){
-	int op, retorno;
+	int op;
+	float retorno;
 	do{
 		retorno = 0;
 		system("cls");
@@ -60,26 +61,26 @@ void menu(){
 		switch (op){
 			case 1:
 				retorno = CalcIdd();
-				printf("A idade eh: %d \n \n", retorno);
+				printf("A idade eh: %.0f \n \n", retorno);
 				
 				system("pause");
 				system("cls");
 				break;
 			case 2:
 				retorno = CalcMed();
-				printf("A media eh: %d \n \n", retorno);
+				printf("A media eh: %.2f \n \n", retorno);
 				system("pause");
 				system("cls");
 				break;
 			case 3:
 				retorno = MultD();
-				printf("A multiplicacao entre os dois numeros eh: %d \n \n", retorno);
+				printf("A multiplicacao entre os dois numeros eh: %.2f \n \n", retorno);
 				system("pause");
 				system("cls");
 				break;
 			case 4:
 				retorno = DivD();
-				printf("A divisao de N1 por N2 eh: %d \n \n", retorno);
+				printf("A divisao de N1 por N2 eh: %.0f \n \n", retorno);
 				system("pause");
 				system("cls");
 				break;
