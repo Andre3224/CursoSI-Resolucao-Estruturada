@@ -62,37 +62,28 @@ void menu(){
 			case 1:
 				retorno = CalcIdd();
 				printf("A idade eh: %.0f \n \n", retorno);
-				
-				system("pause");
-				system("cls");
 				break;
 			case 2:
 				retorno = CalcMed();
 				printf("A media eh: %.2f \n \n", retorno);
-				system("pause");
-				system("cls");
 				break;
 			case 3:
 				retorno = MultD();
 				printf("A multiplicacao entre os dois numeros eh: %.2f \n \n", retorno);
-				system("pause");
-				system("cls");
 				break;
 			case 4:
 				retorno = DivD();
 				printf("A divisao de N1 por N2 eh: %.0f \n \n", retorno);
-				system("pause");
-				system("cls");
 				break;
 			case 5:
-				printf("Saindo...");
+				printf("Saindo...\n\n");
 				break;
 			default:
-				printf("Opcao Invalida");
-				system("pause");
-				system("cls");
+				printf("Opcao Invalida\n\n");
 				break;
 		}
+		system("pause");
+		system("cls");
 	}while(op != 5);
 }
 
