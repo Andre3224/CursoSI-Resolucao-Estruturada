@@ -40,7 +40,7 @@ float MultD(){
 	
 	return produto;
 }
-int DivD(){
+float DivD(){
 	int n1, n2, res;
 	printf("Digite o num1: ");
 	scanf("%d",&n1);
