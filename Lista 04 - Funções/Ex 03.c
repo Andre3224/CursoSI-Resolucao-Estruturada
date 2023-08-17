@@ -55,7 +55,7 @@ void menu(){
 	do{
 		retorno = 0;
 		system("cls");
-		printf("\nEscolha uma opcao: \n 1- Calcular Idade \n 2 - Média de 4 notas \n 3 - Multiplicacao de 2 Número \n 4 - Divisao de 2 Número \n 5 - Sair \n");
+		printf("\nEscolha uma opcao: \n 1- Calcular Idade \n 2 - Media de 4 notas \n 3 - Multiplicacao de 2 Número \n 4 - Divisao de 2 Número \n 5 - Sair \n");
 		scanf("%d",&op);
 		switch (op){
 			case 1:
