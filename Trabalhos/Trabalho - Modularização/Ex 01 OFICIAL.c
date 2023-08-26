@@ -8,7 +8,7 @@
         e. se o número A for IMPAR e B for PAR, fazer uma função para exibir 
 		o maior número;*/
 
-void soma(int A, int B){
+void somar(int A, int B){
 	int resultado;
 	
 	resultado = A + B;
@@ -41,6 +41,6 @@ void main(){
 	}
 	
 	if (TIPOA == 0 && TIPOB == 0 ){
-		soma(A, B);
+		somar(A, B);
 	}
 }

@@ -17,7 +17,7 @@ void calc(float num, float num2, char op){
 		resultado = num - num2;
 		printf("%.2f - %.2f = %.2f \n\n", num, num2, resultado);
 	}else{
-		printf("Erro, verifique as opcoes!")
+		printf("Erro, verifique as opcoes!");
 	}
 }
 void main(){
@@ -33,7 +33,6 @@ void main(){
 		do{
 	
 			printf("\nDigite a Operacao: \n * - Multiplicacao \n / - Divisao \n + - Adicao \n - - Subtracao");
-			printf("\nDeseja fazer outra operacao? 0 - Sair \n");
 			scanf(" %c",&op);
 			
 			
